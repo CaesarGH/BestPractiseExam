@@ -1,0 +1,43 @@
+.questionAnswerArea {
+    width: auto;
+    height: 300px;
+    line-height: 30px;
+    text-align: left;
+    margin: 10px;
+}
+
+.changeQuestionArea {
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    margin: 10px;
+}
+
+button {
+    width: 70px;
+    height: 25px;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 2px;
+}
+
+.currentQuestion {
+    width: 50px;
+    height: 24px;
+    text-align: center;
+}
+
+.question-item {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 23px;
+    border: 1px solid #141414;
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 2px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+}

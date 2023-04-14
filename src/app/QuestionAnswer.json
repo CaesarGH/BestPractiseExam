@@ -1,0 +1,838 @@
+[
+  {
+    "question": "What could a PCF Stack trace help identify when viewing a Web Profile?",
+    "answers": [
+      {
+        "content": "The execution timing for the PCF",
+        "correct": true
+      },
+      {
+        "content": "The reason for a failed query",
+        "correct": false
+      },
+      {
+        "content": "The query linked to the Widget",
+        "correct": false
+      },
+      {
+        "content": "The PCF widget that is linked to the query",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      0
+    ],
+    "radioChoice": true,
+    "index": 0
+  },
+  {
+    "question": "Which two of the following statements describe a situation where the use of Client Reflection is preferred over PostOnChange?",
+    "answers": [
+      {
+        "content": "When the editable property of one widget must change based on a change in value of another widget on the same page",
+        "correct": false
+      },
+      {
+        "content": "When the visible property of one widget must change based on a change in value of another widget on the same page",
+        "correct": false
+      },
+      {
+        "content": "When the input mask property of one widget must change based on a change in value of another widget on the same page",
+        "correct": true
+      },
+      {
+        "content": "When the value property of one widget must change based on a change in value of another widget on the same page",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      2,
+      3
+    ],
+    "radioChoice": true,
+    "index": 1
+  },
+  {
+    "question": "Which of the following situations requires a New Bundle?",
+    "answers": [
+      {
+        "content": "A Web service with a function that queries the database to find a personal auto policy based on the policy number and returns the number of vehicles and number of drivers on the policy",
+        "correct": false
+      },
+      {
+        "content": "A Gosu class function that queries the database to find a check based on the check number and calls an external Web service to send the check data to the check processing system",
+        "correct": false
+      },
+      {
+        "content": "A Gosu Rule that executes when a claim's loss cause changes and creates a history entry to log the old and new values of the loss cause field",
+        "correct": false
+      },
+      {
+        "content": "A Batch process that queries the database to find claim that haven't been touched for 5 days and creates an activity for each claim to notify the primary adjuster",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      3
+    ],
+    "radioChoice": true,
+    "index": 2
+  },
+  {
+    "question": "How can an extension entity that has no foreign keys be included in the domain graph?",
+    "answers": [
+      {
+        "content": "Such an entity cannot be included in the domain graph",
+        "correct": false
+      },
+      {
+        "content": "Configure an entity that is inside the domain graph with a foreign key to the extension whose archivingOwner property='Target'",
+        "correct": false
+      },
+      {
+        "content": "Configure an entity that is inside the domain graph with a foreign key to the extension whose archivingOwner property='None'",
+        "correct": false
+      },
+      {
+        "content": "Configure an entity that is inside the domain graph with a foreign key to the extension whose archivingOwner property='Source'",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      3
+    ],
+    "radioChoice": true,
+    "index": 3
+  },
+  {
+    "question": "Why should unit tests be independent?",
+    "answers": [
+      {
+        "content": "Dependent tests use too much memory and tend to run slowly",
+        "correct": false
+      },
+      {
+        "content": "Independence makes it easier to identify a test's functional area",
+        "correct": false
+      },
+      {
+        "content": "Independent test run faster than dependent ones",
+        "correct": false
+      },
+      {
+        "content": "Dependent tests can make it difficult to identify the root cause of a failure",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      3
+    ],
+    "radioChoice": true,
+    "index": 4
+  },
+  {
+    "question": "Which of the following types of errors can be found by database consistency checks?",
+    "answers": [
+      {
+        "content": "One-to-one relationships that have more than one refering entity",
+        "correct": true
+      },
+      {
+        "content": "Differences between the logical data model and the physical database schema",
+        "correct": true
+      },
+      {
+        "content": "Denormalized search column values that do not match their associalted column values",
+        "correct": false
+      },
+      {
+        "content": "Typecodes that are orphaned in the database after being removed from the data model",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      0,
+      1
+    ],
+    "radioChoice": true,
+    "index": 5
+  },
+  {
+    "question": "Which two of the following statements describe areas that Cloud Assessments check for?",
+    "answers": [
+      {
+        "content": "Cloud Assessments verify that a detailed project management plan is in place and that the project will deliver on time and on bugdet",
+        "correct": false
+      },
+      {
+        "content": "Cloud Assessments review all documented business requirements to ensure they are reasonable and identify any missing requirements",
+        "correct": false
+      },
+      {
+        "content": "Cloud Assessments check the configuration for any changes that violate or introduce performance risks to the Guidewire applications",
+        "correct": true
+      },
+      {
+        "content": "Cloud Assessments review the configuration of Guidewire applications to verify that base product functionality is leveraged over custom configurations",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      2,
+      3
+    ],
+    "radioChoice": true,
+    "index": 6
+  },
+  {
+    "question": "Why is it important to clear the global cache immediately before starting a Web Profile?",
+    "answers": [
+      {
+        "content": "It restarts the application server so the application is fresh",
+        "correct": false
+      },
+      {
+        "content": "It clears the browser cache to get accurate browser rendering times",
+        "correct": false
+      },
+      {
+        "content": "To flush the beans from memory and force queries to go to the database",
+        "correct": true
+      },
+      {
+        "content": "It forces a logout/login process to ensure you are anthorized to sun profiles",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      2
+    ],
+    "radioChoice": true,
+    "index": 7
+  },
+  {
+    "question": "A new Guidewire Cloud customer recently completed a Cloud Assurance assessment in the development phase of their implementation.Which three of the following statements describe characteristeics of the optimization backlog?",
+    "answers": [
+      {
+        "content": "Defects identified in automated testing of code during merges are added to the backlog",
+        "correct": true
+      },
+      {
+        "content": "Issues identified in the assessment that are not compliant with standards are added to the backlog",
+        "correct": true
+      },
+      {
+        "content": "The name of the developer responsible for resolving each issue is added to the backlog",
+        "correct": false
+      },
+      {
+        "content": "A description of each issue and a description of how to remediate it is added to the backlog",
+        "correct": true
+      },
+      {
+        "content": "A priority is assigned to each item in the backlog specifying when the item must be addressed",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      0,
+      1,
+      3
+    ],
+    "radioChoice": true,
+    "index": 8
+  },
+  {
+    "question": "A developer is working on changes for a user story.Which of the following statements represents best practices for merging the user story branch?",
+    "answers": [
+      {
+        "content": "User story branches should be merged into the production branch frequently",
+        "correct": false
+      },
+      {
+        "content": "Frequent merges of a user story branch increase the likelihood of source code conflicts",
+        "correct": false
+      },
+      {
+        "content": "Code change should be peer-reviewed after the user story branch is merged",
+        "correct": false
+      },
+      {
+        "content": "Developers should break user stories into development tasks to support task-level merges",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      3
+    ],
+    "radioChoice": true,
+    "index": 9
+  },
+  {
+    "question": "What does a Frame represent?",
+    "answers": [
+      {
+        "content": "The sum of profiled data collected for a Web session",
+        "correct": false
+      },
+      {
+        "content": "A holding area for jpg's and bmp files",
+        "correct": false
+      },
+      {
+        "content": "A collection of Stacks",
+        "correct": false
+      },
+      {
+        "content": "A single invocation of a profiled section of code",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      3
+    ],
+    "radioChoice": true,
+    "index": 10
+  },
+  {
+    "question": "In which of the following situations can denormalization typically improve the performance?",
+    "answers": [
+      {
+        "content": "ends with searches",
+        "correct": true
+      },
+      {
+        "content": "contains() searches",
+        "correct": false
+      },
+      {
+        "content": "subselect under an or searches",
+        "correct": false
+      },
+      {
+        "content": "hasMatch() searches",
+        "correct": false
+      },
+      {
+        "content": "case-insensitive searches",
+        "correct": true
+      },
+      {
+        "content": "intersect() searches",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      0,
+      4
+    ],
+    "radioChoice": true,
+    "index": 11
+  },
+  {
+    "question": "Which of the following statements are applicable to Git?",
+    "answers": [
+      {
+        "content": "The revert,rebase,push and pull operations are local and don't require network connection",
+        "correct": false
+      },
+      {
+        "content": "Allows each developer to have a local copy of the entire history of the project",
+        "correct": true
+      },
+      {
+        "content": "It stores information as list of files and the changes made to each file over time",
+        "correct": false
+      },
+      {
+        "content": "A branch is cheap to create because it's just a floating pointer",
+        "correct": true
+      },
+      {
+        "content": "A given commit is identified by a checksum and has pointers to its children",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      1,
+      3
+    ],
+    "radioChoice": true,
+    "index": 12
+  },
+  {
+    "question": "Which of the following statements describe when and why to run database consistency checks?",
+    "answers": [
+      {
+        "content": "Run consistency checks frequently during development to identify database errors caused by data model and coding changes",
+        "correct": true
+      },
+      {
+        "content": "Run consistency checks monthly in production after stabilization of a new code development",
+        "correct": true
+      },
+      {
+        "content": "Run consistency checks after deploying configuration changes to a Test environment to find and correct database consistency errors",
+        "correct": false
+      },
+      {
+        "content": "Run consistency checks weekly in local development environments to identify data integrity errors",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      0,
+      1
+    ],
+    "radioChoice": true,
+    "index": 13
+  },
+  {
+    "question": "Which of the following statements are true regarding Web Profiles?",
+    "answers": [
+      {
+        "content": "They are persisted to the database and can be retrieved at any time",
+        "correct": false
+      },
+      {
+        "content": "Each Stack represent a single trip to the database",
+        "correct": true
+      },
+      {
+        "content": "Queries are automatically profiled",
+        "correct": false
+      },
+      {
+        "content": "A Stack is a collection of Frames",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      1,
+      3
+    ],
+    "radioChoice": true,
+    "index": 14
+  },
+  {
+    "question": "Which of the following are required when extending the data model to include a new entity in the domain graph?",
+    "answers": [
+      {
+        "content": "The entity must implement the Extrable delegate",
+        "correct": true
+      },
+      {
+        "content": "The entity must implement the Assignable delegate",
+        "correct": false
+      },
+      {
+        "content": "The entity must end with the _Ext suffix",
+        "correct": false
+      },
+      {
+        "content": "The entity must have an owned foreign key pointing to the parent of the domain graph",
+        "correct": false
+      },
+      {
+        "content": "The entity must have a foreign key relationship to another entity that is inside the domain graph",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      0,
+      4
+    ],
+    "radioChoice": true,
+    "index": 15
+  },
+  {
+    "question": "Examine the following code snippet from the Desktop Activities ListView,which is based on the ActivityDesktopView.What propblems do you see with the highlighted code?",
+    "answers": [
+      {
+        "content": "Loss Date has no relationship to an Activity",
+        "correct": false
+      },
+      {
+        "content": "No printWidth is specified,so the date will be truncated in the results",
+        "correct": false
+      },
+      {
+        "content": "Loss Date is not part of the ActivityDesktopView",
+        "correct": true
+      },
+      {
+        "content": "The entire claim entity will be retrieved to access the Loss Date",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      2,
+      3
+    ],
+    "radioChoice": true,
+    "index": 16
+  },
+  {
+    "question": "While working with a Profile you need to identify all the Stacks that reference a specific function called myFunction().What is the best way to do this when using the IntellliJ Profile Analysis Plugin?",
+    "answers": [
+      {
+        "content": "Use the Show Frames button which accepts a string as a search parameter",
+        "correct": false
+      },
+      {
+        "content": "Use the AutoAnalysis button,which accepts a function name as an argument",
+        "correct": false
+      },
+      {
+        "content": "Look through the Stack trace of the Aggregated Queries to find references to the method",
+        "correct": false
+      },
+      {
+        "content": "Use the Find Frames option to search through the stack traces of the profile for references to myFunction",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      3
+    ],
+    "radioChoice": true,
+    "index": 17
+  },
+  {
+    "question": "What does the 'gw.api.Profiler.push(profiler_tag_as_a_string)'method do?",
+    "answers": [
+      {
+        "content": "It adds a Frame to the Stack",
+        "correct": true
+      },
+      {
+        "content": "It adds a Stack to the Frame",
+        "correct": false
+      },
+      {
+        "content": "It begins the profiled section of code",
+        "correct": true
+      },
+      {
+        "content": "It removes a Frame from the Stack",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      0,
+      2
+    ],
+    "radioChoice": true,
+    "index": 18
+  },
+  {
+    "question": "Which of the following statements are true regarding the Guidewire Profiler?",
+    "answers": [
+      {
+        "content": "You can access the Profiler from the Internal Tools page",
+        "correct": false
+      },
+      {
+        "content": "It may be used as part of an early problem detection strategy",
+        "correct": true
+      },
+      {
+        "content": "It helps us understand a customer's business profile",
+        "correct": false
+      },
+      {
+        "content": "It is primary investigative tool for InsuranceSuite performance issues in production",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      1,
+      3
+    ],
+    "radioChoice": true,
+    "index": 19
+  },
+  {
+    "question": "Which of the following options is valid for filtering a query-backed ListView?",
+    "answers": [
+      {
+        "content": "Use a Gosu standard query filter in the filter property of a ToolbarFilterOption of a ToolbarFilter widget",
+        "correct": true
+      },
+      {
+        "content": "Use an existing filter in the filter property of a ToolbarFilterOption of a ToolbarFilter widget",
+        "correct": true
+      },
+      {
+        "content": "Use a Gosu standard bean filter in the filter property of a ToolbarFileterOption of a ToolbarFilter widget",
+        "correct": false
+      },
+      {
+        "content": "Use a Gosu method to loop through the ListView rows adding the rows that match the criteria to a list and call the method from a Toolbar Range widget",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      0,
+      1
+    ],
+    "radioChoice": true,
+    "index": 20
+  },
+  {
+    "question": "Where does the 'Show Queries' button navigate to?",
+    "answers": [
+      {
+        "content": "The Find All Frames Page",
+        "correct": false
+      },
+      {
+        "content": "The Individual Queries page",
+        "correct": false
+      },
+      {
+        "content": "The Aggregated Queries page",
+        "correct": true
+      },
+      {
+        "content": "The Query Stack page",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      2
+    ],
+    "radioChoice": true,
+    "index": 21
+  },
+  {
+    "question": "What does the 'Offset' column represent in the IntelliJ Profile Analysis Plugin?",
+    "answers": [
+      {
+        "content": "The execution time for the stack",
+        "correct": false
+      },
+      {
+        "content": "The number of Frames included in the Stack",
+        "correct": false
+      },
+      {
+        "content": "The relative time since profiling started",
+        "correct": true
+      },
+      {
+        "content": "The amount of time the CPU was idle",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      2
+    ],
+    "radioChoice": true,
+    "index": 22
+  },
+  {
+    "question": "When does archive graph validation occur?",
+    "answers": [
+      {
+        "content": "On server startup",
+        "correct": true
+      },
+      {
+        "content": "When archiving begins",
+        "correct": false
+      },
+      {
+        "content": "When you save an entity extension in Studio",
+        "correct": false
+      },
+      {
+        "content": "On server shutdown",
+        "correct": false
+      },
+      {
+        "content": "When PCF's are reloaded",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      0
+    ],
+    "radioChoice": true,
+    "index": 23
+  },
+  {
+    "question": "A developer, who is working on a behavior-driven development implementation, is ready to merge changes for a new feature from a user story branch to the develop branch. Which two of the following steps should be performed to verify the changes before merging?",
+    "answers": [
+      {
+        "content": "Run all performance tests created for the implementation",
+        "correct": false
+      },
+      {
+        "content": "Run all automated unit test created for the feature",
+        "correct": true
+      },
+      {
+        "content": "Run all automated smoke tests against code on the user stroy branch",
+        "correct": false
+      },
+      {
+        "content": "Run all executable specifications created for the feature",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      1,
+      3
+    ],
+    "radioChoice": true,
+    "index": 24
+  },
+  {
+    "question": "Which of the following are correct when using the Web Profiler for Early Problem Detection?",
+    "answers": [
+      {
+        "content": "Timings are of primary interest",
+        "correct": true
+      },
+      {
+        "content": "You should limit the size of the profile to as few interactions as required",
+        "correct": false
+      },
+      {
+        "content": "You should generate a large amount of data to get realistic timings",
+        "correct": true
+      },
+      {
+        "content": "Queries are of primary interest",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      0,
+      2
+    ],
+    "radioChoice": true,
+    "index": 25
+  },
+  {
+    "question": "Assuming the query returns 13,000 result,which of the following statements describes correctly the behavior of the code?",
+    "answers": [
+      {
+        "content": "The code load 5000 companies into the memory and then divides them into chunks of 300.It updates the properties of each company in the first chunk and makes a commit before processing the next chunk.Once all the chunks are processed the code will load the next 5000 companies",
+        "correct": true
+      },
+      {
+        "content": "The code load 5000 companies into the memory and then divides them into chunks of 300.It updates the properties of each company in the first chunk and saves the results in a staging table in the database before processing the next chunk.Once all the chunks are processed the code loads the next 5000 companies.Once all the 13,000 companies are processed the code make single commit",
+        "correct": false
+      },
+      {
+        "content": "The code loads 13,000 companies into the memory and then divides them into pages of 5000.Next it divides the pages into chunks of 300.It updates the properties of each company in the first chunk and makes a commit before processing the next chunk",
+        "correct": false
+      },
+      {
+        "content": "The code loads 5000 companies into the memory,updates the properties of each company and makes a commit before loading the next 5000 companies",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      0
+    ],
+    "radioChoice": true,
+    "index": 26
+  },
+  {
+    "question": "Which of the following statements identify problems that can result from database inconsistency?",
+    "answers": [
+      {
+        "content": "Activities and other assignable objects may be assigned to the wrong user",
+        "correct": false
+      },
+      {
+        "content": "Searches may return incorrect results",
+        "correct": true
+      },
+      {
+        "content": "Related child objects may refer to different parent objects",
+        "correct": true
+      },
+      {
+        "content": "Navigation within the user interface may be incorrect",
+        "correct": false
+      },
+      {
+        "content": "The Data Dictionary may regenerate incorrectly",
+        "correct": false
+      }
+    ],
+    "trueAnswersIndex": [
+      1,
+      2
+    ],
+    "radioChoice": true,
+    "index": 27
+  },
+  {
+    "question": "A developer is configuring the PostOnchange functionality for a Text Input widget.Which two of the following code snippets could cause performance problems when set as the value of the onChange Property?",
+    "answers": [
+      {
+        "content": "anAccount.markContacksForAutoSync()",
+        "correct": true
+      },
+      {
+        "content": "anAccount.BusOpsDesc = 'manufacturing of computer parts'",
+        "correct": false
+      },
+      {
+        "content": "anAccount.ServiceTier = CustomerServiceTier.TC_SOLD",
+        "correct": false
+      },
+      {
+        "content": "anAccount.cascadeAssignment(anAssignable)",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      0,
+      3
+    ],
+    "radioChoice": true,
+    "index": 28
+  },
+  {
+    "question": "Which of the following can be profiled?",
+    "answers": [
+      {
+        "content": "Messaging Destinations",
+        "correct": true
+      },
+      {
+        "content": "Plugins",
+        "correct": true
+      },
+      {
+        "content": "Browser rendering time",
+        "correct": false
+      },
+      {
+        "content": "Network Latency",
+        "correct": false
+      },
+      {
+        "content": "Consumed Web Services",
+        "correct": false
+      },
+      {
+        "content": "Published Web Services",
+        "correct": true
+      }
+    ],
+    "trueAnswersIndex": [
+      0,
+      1,
+      5
+    ],
+    "radioChoice": true,
+    "index": 29
+  }
+]
