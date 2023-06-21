@@ -834,5 +834,420 @@
     ],
     "radioChoice": true,
     "index": 29
+  },
+  {
+    "question": "Which of the following branch types is used to support parallel development and enable a team to stabilize one or more features while another team develops a different set of features on the develop branch?",
+    "answers": [
+      {
+        "content": "Release branch",
+        "correct": false
+      },
+      {
+        "content": "Production branch",
+        "correct": false
+      },
+      {
+        "content": "User story branch",
+        "correct": true
+      },
+      {
+        "content": "Hot fix branch",
+        "correct": false
+      }
+    ],
+      "trueAnswersIndex": [
+        2
+      ],
+      "radioChoice": true,
+      "index": 30
+  },
+  {
+    "question": "Which of the following expressions would be considered 'expensive'?",
+    "answers": [
+      {
+        "content": "CommercialPropertyLine.CPLocation*.Location.Buildings",
+        "correct": true
+      },
+      {
+        "content": "VehicleIncident.driver.PrimaryAddressDisplayValue",
+        "correct": false
+      },
+      {
+        "content": "PolicyLocation.HighValueItems.Count > 0 ? YesNo.TC_YES : YesNo.TC_NO",
+        "correct": false
+      },
+      {
+        "content": "Group.AssigableQueues*.DisplayName",
+        "correct": true
+      }
+    ],
+      "trueAnswersIndex": [
+        0,
+      3
+      ],
+      "radioChoice": true,
+      "index": 31
+  },
+  {
+    "question": "Which of the following is NOT a best practice of logging?",
+    "answers": [
+      {
+        "content": "Enable DEBUG level for development environment",
+        "correct": false
+      },
+      {
+        "content": "Provide information in log messages that is helpful for diagnosing issues",
+        "correct": false
+      },
+      {
+        "content": "Do not log excessive messages at INFO level",
+        "correct": false
+      },
+      {
+        "content": "Log all exceptions as ERRORs",
+        "correct": true
+      }
+    ],
+      "trueAnswersIndex": [
+        3
+      ],
+      "radioChoice": true,
+      "index": 32
+  },
+  {
+    "question": "Which of the following operations is prohibited on shared branchs because it rewrites history up to a common ancestor,which could cause disruption for the whole development team?",
+    "answers": [
+      {
+        "content": "commit",
+        "correct": false
+      },
+      {
+        "content": "rebase",
+        "correct": true
+      },
+      {
+        "content": "merge",
+        "correct": false
+      },
+      {
+        "content": "push",
+        "correct": false
+      }
+    ],
+      "trueAnswersIndex": [
+        1
+      ],
+      "radioChoice": true,
+      "index": 33
+  },
+  {
+    "question": "Which of the following statements correctly describe row queries?",
+    "answers": [
+      {
+        "content": "Avg,Count,Min,Max and Sum are properties on the IQueryBeanResult that is returned by row queries.These properties are used to excute aggregate functions using Group By in the database",
+        "correct": true
+      },
+      {
+        "content": "Row Queries are identified with the reRoot alias in the embedded contextual info",
+        "correct": false
+      },
+      {
+        "content": "Row query results are row objects that provide only the selected properties with no access to the object graph.Therefore,row query results are not used as data sources for list views and detail views in page configuration",
+        "correct": false
+      },
+      {
+        "content": "It is recommended to use row queries instead of entity queries because row queries are more readable and maintainable.Use entity queries only when you need access to the object graphs",
+        "correct": false
+      },
+      {
+        "content": "Row queries can improve the performance by reducing the number of implicit queries.This is achieved by returning only specific fields rather than entity instances",
+        "correct": true
+      },		{
+        "content": "Row query result can access data from columns,foregin keys and virtual properties.These values are in the local memory only and are not loaded into the application cache",
+        "correct": false
+      }
+    ],
+      "trueAnswersIndex": [
+        0,
+      4
+      ],
+      "radioChoice": true,
+      "index": 34
+  },
+  {
+    "question": "A developer is designing a Screen that uses a Panel Ref to reference a reusable List View.Each row of the List View has a Text Cell that supports the editing of confidential information if the current user has the required authorization:",
+    "answers": [
+      {
+        "content": "List View",
+        "correct": true
+      },
+      {
+        "content": "Text Cell",
+        "correct": false
+      },
+      {
+        "content": "Row Iterator",
+        "correct": true
+      },
+      {
+        "content": "Screen",
+        "correct": false
+      },
+      {
+        "content": "Row",
+        "correct": false
+      }
+    ],
+      "trueAnswersIndex": [
+        0,
+      2
+      ],
+      "radioChoice": true,
+      "index": 35
+  },
+  {
+    "question": "Examine the following snippet from log4j2.xml.Where does a logger for the root category log messages?",
+    "answers": [
+      {
+        "content": "/tmp/Guidewire/ClaimCenterLogs/api.log",
+        "correct": false
+      },
+      {
+        "content": "Console",
+        "correct": true
+      },
+      {
+        "content": "/tmp/Guidewire/ClaimCenterLogs/pluginlog.log",
+        "correct": false
+        
+      },
+      {
+        "content": "/tmp/Guidewire/ClaimCenterLogs/cclog.log",
+        "correct": true
+      }
+    ],
+      "trueAnswersIndex": [
+        1,
+      3
+      ],
+      "radioChoice": true,
+      "index": 36
+  },
+  {
+    "question": "Given the sample log file below.which of the following statements describes the database schema validation warning it contains and follows best practices for how to resolve it?",
+    "answers": [
+      {
+        "content": "Columns with DENORM in their name may be longer than needed to avoid upgrade cost.Modify the colunm name to make it shorter and restart the server",
+        "correct": false
+      },
+      {
+        "content": "The column 'mandatory_Ext' in ab_attribute in the physical database is not in the data model.Create an SQL script to delete the column and send it to Guidewire Support for approval before running it",
+        "correct": true
+      },
+      {
+        "content": "Two differences between the  physical database and the data model were found.Sice these may be intentional,no action is needed",
+        "correct": false
+      },
+      {
+        "content": "The log file contains only INFO and WARN messages.No action is required for these messages",
+        "correct": false
+      }
+    ],
+      "trueAnswersIndex": [
+        1
+      ],
+      "radioChoice": true,
+      "index": 37
+  },
+  {
+    "question": "How can the Profiler Configuration Page be accessed?",
+    "answers": [
+      {
+        "content": "The keystorke ALT+SHIFT+P",
+        "correct": true
+      },
+      {
+        "content": "From the sidebar on the Administration tab",
+        "correct": false
+      },
+      {
+        "content": "From the sidebar of the Internal Tools Page",
+        "correct": false
+      },
+      {
+        "content": "Typing 'Profiler' into the QuickJump Box",
+        "correct": false
+      },
+      {
+        "content": "From the sidebar of the Server Tools Page",
+        "correct": true
+      }
+    ],
+      "trueAnswersIndex": [
+        0,
+      4
+      ],
+      "radioChoice": true,
+      "index": 38
+  },
+  {
+    "question": "How do you define a custom Profiler Tag?",
+    "answers": [
+      {
+        "content": "Create a Gosu class that declares instances of the Profiler Class",
+        "correct": false
+      },
+      {
+        "content": "Modify the ProfilerTags.ttx file",
+        "correct": false
+      },
+      {
+        "content": "Define the new tags in ProfilerTags-Config.xml",
+        "correct": false
+      },
+      {
+        "content": "Create a Gosu class that defines instances of Profiler Tags as public,static,and final",
+        "correct": true
+      }
+    ],
+      "trueAnswersIndex": [
+        3
+      ],
+      "radioChoice": true,
+      "index": 39
+  },
+  {
+    "question": "What are the restrictions.if any,regarding naming of GUnit test methods?",
+    "answers": [
+      {
+        "content": "The name must end with the word 'test'",
+        "correct": false
+      },
+      {
+        "content": "There are no naming restrictions,but the names must appear in camelCase",
+        "correct": false
+      },
+      {
+        "content": "The name must begin with the prefix 'testThat'",
+        "correct": true
+      },
+      {
+        "content": "There are no restrictions,You may call the methods anything you like",
+        "correct": false
+      }
+    ],
+      "trueAnswersIndex": [
+        2
+      ],
+      "radioChoice": true,
+      "index": 40
+  },
+  {
+    "question": "What could a large time amount of 'Own Time' indicate?",
+    "answers": [
+      {
+        "content": "Anti-Patterns being used in custom code",
+        "correct": false
+      },
+      {
+        "content": "A poorly performing query",
+        "correct": false
+      },
+      {
+        "content": "Excessive number of server round trips",
+        "correct": false
+      },
+      {
+        "content": "A need to add profiler tags to the code",
+        "correct": true
+      }
+    ],
+      "trueAnswersIndex": [
+        3
+      ],
+      "radioChoice": true,
+      "index": 41
+  },
+  {
+    "question": "What is the purpose of these logging statements?<br>BillingIntegrationLogger.info('Retrying event message') [Message#EventName=${blockedMessage.EventName}] after [Contact=${this}] is synced.<br>...<br>...<br>BillingIntegrationLogger.info('Processed event message [Message#EventName=${blockedMessage.EventName}] after [#Retries=${numRetries}] retries.')",
+    "answers": [
+      {
+        "content": "They log for failure",
+        "correct": false
+      },
+      {
+        "content": "They log for success",
+        "correct": false
+      },
+      {
+        "content": "They log for recovery",
+        "correct": true
+      },
+      {
+        "content": "They log for identification",
+        "correct": false
+      }
+    ],
+      "trueAnswersIndex": [
+        2
+      ],
+      "radioChoice": true,
+      "index": 42
+  },
+  {
+    "question": "What logging level should be used to log the following message(have contact detail)?",
+    "answers": [
+      {
+        "content": "TRACE",
+        "correct": false
+      },
+      {
+        "content": "WARN",
+        "correct": false
+      },
+      {
+        "content": "INFO",
+        "correct": false
+      },
+      {
+        "content": "ERROR",
+        "correct": false
+      },
+      {
+        "content": "DEBUG",
+        "correct": true
+      }
+    ],
+      "trueAnswersIndex": [
+        4
+      ],
+      "radioChoice": true,
+      "index": 43
+  },
+  {
+    "question": "Which logging category will _documentPluginLogger use to log message?<br>static var _documentPluginLogger = LoggerFactory.getLogger(PLLoggerCategory.PLUGIN,'DocumentProducationLog')",
+    "answers": [
+      {
+        "content": "Plugin.DocumentProductionLog",
+        "correct": false
+      },
+      {
+        "content": "DocumentProductionLog",
+        "correct": false
+      },
+      {
+        "content": "Plugin",
+        "correct": true
+      },
+      {
+        "content": "Integration",
+        "correct": false
+      }
+    ],
+      "trueAnswersIndex": [
+        2
+      ],
+      "radioChoice": true,
+      "index": 44
   }
 ]
